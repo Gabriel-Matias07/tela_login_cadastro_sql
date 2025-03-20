@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.container {
+    width: 393px;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    background-color: #eeeeee;
+    box-shadow: 5px 7px 5px 3px #bfbebe;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.social-media .icons {
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-media .icons:hover {
+    box-shadow: 5px 7px 5px 3px #bfbebe;
+    transition: 1s;
+    width: 2.0001rem;
+}
+
+.caixa-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    height: 20vh;
+    width: 50%;
+    padding: 2.5rem;
+    gap: 1rem;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    box-shadow: 5px 7px 5px 3px #bfbebe;
+}
+
+.caixa-inputs .inputs {
+    max-width: 100%;
+    height: 3rem;
+    padding: 0.7rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.button {
+    width: 17rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #D9D9D9;
+    box-shadow: 3px 5px 3px 1px #bfbebe;
+    cursor: pointer;
+}
+
+#button_cadastrar {
+    margin-top: 2.3rem;
+}
+
+.button:hover {
+    transition: 1s;
+    box-shadow: 5px 7px 5px 3px #7a7777;
+}
+
+.buttons {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}

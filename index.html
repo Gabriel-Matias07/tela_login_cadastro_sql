@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2>Faça Seu Login</h2>
+            <nav class="social-media">
+                <img title="Google" class="icons" src="img/google.png" alt="google">
+                <img title="Facebook" class="icons" src="img/facebook.png" alt="facebook">
+                <img title="Linkedin" class="icons" src="img/lindekin.png" alt="linkedin">
+            </nav>
+        </header>
+        <div class="inputs">
+        <label class="label">Email</label> <input class="input" type="email" required placeholder="Digite Seu Email">
+        <label class="label">Senha</label> <input id="senha" class="input" type="password" required placeholder="Digite Sua Senha">
+        </div>
+
+        <hr>
+        <span class="span"><a class="font-size" href="google.com">Esqueceu a Senha?</a></span>
+
+        <button class="button" type="button" onclick="logar()">Fazer Login</button>
+        <span class="span_novo_cadastro">
+            <label>Ainda não tem conta?
+                <a class="font-size" href="cadastro.html">Cadastre-se</a>
+            </label>
+            
+        </span>
+    </div>
+
+
+    <script>
+        function logar(){
+            const senha = document.getElementById('senha').value
+            if(senha == 123){
+                window.alert("Sucesso")
+            }
+            else{
+                window.alert("Senha Incorreta")
+            }
+        }
+
+        // Terminar a função de validação
+    </script>
+</body>
+</html>
